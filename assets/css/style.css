@@ -1,0 +1,327 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* Hero Section START */
+
+.heroSection {
+    background-color: #fcdb00;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 52px 0 0 0;
+    cursor: default;
+}
+
+.heroSection .logo {
+    width: 50%;
+    float: left;
+}
+
+.heroSection .menu {
+    width: 50%;
+    float: right;
+}
+
+.heroSection ul {
+    text-align: right;
+}
+
+.heroSection ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.heroSection ul li:first-child {
+    margin-left: 0px;
+}
+
+.heroSection ul li a {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #010101;
+}
+
+.heroSection .heroDesc {
+    width: 50%;
+    float: left;
+    padding: 132px 0 230px 0;
+}
+
+.heroSection h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #010101;
+}
+
+.heroSection h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 80px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: #313841;
+}
+
+.heroSection p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.heroSection .heroDesc .socialIcons {
+    /* padding-top: 46px; */
+    /* margin-top: 46px; */
+}
+
+.heroSection .heroDesc .socialIcons a {
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.heroSection .heroDesc .socialIcons a:last-child {
+    margin-right: 0px;
+}
+
+.heroSection .heroDesc .socialIcons a i {
+    color: #z;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.heroSection .heroImage {
+    width: 50%;
+    float: right;
+    /* text-align: right; */
+    padding-left: 105px;
+    box-sizing: border-box;
+    padding-top: 71px;
+}
+
+.heroSection .heroImage img {}
+
+
+/*Hero Section End */
+
+
+/* Features Section Start */
+
+.features {
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 164px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.features .featuresHead {}
+
+.features .featuresHead h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 119px;
+    color: #010101;
+    box-sizing: border-box;
+}
+
+.features .featuresHead p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+    padding: 18px 85px 12px 85px;
+    box-sizing: border-box;
+}
+
+.features .featuresRow {
+    margin: 0;
+    padding-top: 78px;
+    box-sizing: border-box;
+}
+
+.features .featuresRow .feature {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.features .featuresRow .feature .featureIcon {
+    width: 60px;
+    float: left;
+    font-size: 50px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding-right: 20px;
+    text-align: left;
+
+}
+
+.features .featuresRow .feature .featureDesc {
+    float: left;
+    text-align: left;
+    padding-top: 5px;
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+}
+
+.features .featuresRow .feature .featureDesc h3 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #010101;
+    margin: 0;
+}
+
+.features .featuresRow .feature .featureDesc p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #898989;
+    margin: 0;
+    padding-top: 22px;
+    box-sizing: border-box;
+}
+
+
+/* Features Section End */
+
+
+/* Footer Section Start */
+
+.footer {
+    background-color: #010101;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.footer h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fcdb00;
+    padding-top: 97px;
+    box-sizing: border-box;
+}
+
+.footer p {
+    margin: 0;
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 80px 40px 80px;
+    box-sizing: border-box;
+}
+
+.footer .register {}
+
+.footer .register .emailInput {
+    width: 580px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+    border-radius: 3px;
+    font-size: 16px;
+    padding-left: 27px;
+}
+
+.footer .register .inputBtn {
+    height: 50px;
+    width: 130px;
+    background-color: #fcdb00;
+    color: #010101;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 22px;
+}
+
+.footer .footerSocial {
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.footer .footerSocial a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fcdb00;
+    font-weight: 400;
+    height: 37px;
+    width: 37px;
+    margin-left: 33px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    line-height: 50px;
+}
+.footer .footerSocial a:first-child {
+    margin-left: 0;
+}
+.footer .footerSocial a i {
+    text-align: center;
+    color: #010101;
+    font-size: 30px;
+}
+
+.footer .footerInfo {
+    padding-top: 133px;
+    text-align: left;
+}
+
+.footer .footerInfo .info {}
+
+.footer .footerInfo .info.contact {
+    float: left;
+    width: 320px;
+    padding-bottom: 142px;
+    box-sizing: border-box;
+}
+
+.footer .footerInfo .info.links {
+    width: 160px;
+    float: left;
+}
+
+.footer .footerInfo .info ul {}
+
+.footer .footerInfo .info ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .footerInfo .info.links a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+/* Footer Section End */
